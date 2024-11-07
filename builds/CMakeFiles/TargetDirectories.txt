@@ -1,0 +1,9 @@
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/CMakeFiles/week1.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/CMakeFiles/edit_cache.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/CMakeFiles/rebuild_cache.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/CMakeFiles/edit_cache.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/CMakeFiles/rebuild_cache.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/src/CMakeFiles/glfw.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/src/CMakeFiles/update_mappings.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/src/CMakeFiles/edit_cache.dir
+/Users/mustafadaglioglu/Documents/Projects/ComputerGraphics/week1/builds/glfw/src/CMakeFiles/rebuild_cache.dir

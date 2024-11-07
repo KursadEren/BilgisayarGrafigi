@@ -1,0 +1,87 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMakeBuild",
+            "type": "shell",
+            "command": "cmake",
+            "options": {
+                "cwd": "${workspaceFolder}/builds"
+            },
+            "args": [
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "${workspaceFolder}",
+                "-G",
+                "Unix Makefiles"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":[
+                "ProjeBuildKlasoruOlustur"
+            ]
+        },
+        {
+            "label": "CMakeDebugBuild",
+            "type": "shell",
+            "command": "cmake",
+            "options": {
+                "cwd": "${workspaceFolder}/builds"
+            },
+            "args": [
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "${workspaceFolder}",
+                "-G",
+                "Unix Makefiles"
+            ]
+        },
+        {
+            "label": "MakeBuild",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/builds"
+            }
+        },
+        {
+            "label": "BuildKlasoruSil",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "${workspaceFolderBasename}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/builds"
+            }
+        },
+        {
+            "label": "ProjeBuildKlasoruOlustur",
+            "type": "shell",
+            "command": "mkdir",
+            "args": [
+                "-p",
+                "${workspaceFolderBasename}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Builds"
+            },
+            "dependsOn":[
+                "BuildKlasoruOlustur"
+            ]
+        },
+        {
+            "label": "BuildKlasoruOlustur",
+            "type": "shell",
+            "command": "mkdir",
+            "args": [
+                "-p",
+                "Builds"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/../.."
+            }
+        }
+    ]
+}
